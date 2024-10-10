@@ -16,9 +16,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class ConsumoAPI {
+public class ConsumptionAPI {
 
-    public String obterDados(String address) {
+    public String getData(String address) {
 
         // Cria um novo cliente HTTP, responsável por enviar requisições e receber respostas.
         HttpClient client = HttpClient.newHttpClient();
